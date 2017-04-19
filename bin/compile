@@ -64,8 +64,6 @@ if [ -z "$PLAY_VERSION" ] ; then
   PLAY_VERSION=$DEFAULT_PLAY_VERSION
   VERSION_DECLARED=false
   echo "-----> WARNING: Play! version not specified in dependencies.yml. Default version: $PLAY_VERSION being used...."
-else
-  echo "Play! $PLAY_VERSION will be installed."
 fi
 
 # Install Play! or update the version
