@@ -46,7 +46,7 @@ download_play_official() {
 Please check that the version ${playVersion} is correct in your conf/dependencies.yml"
     exit 1
   else
-    echo "Downloading ${playZipFile} from https://downloads.typesafe.com" | indent
+    echo "Downloading ${playZipFile} from ${playUrl}" | indent
     curl --retry 3 -s -O -L ${playUrl}
   fi
 
